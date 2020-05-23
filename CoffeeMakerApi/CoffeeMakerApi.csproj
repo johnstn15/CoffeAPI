@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1D38A5F2-9135-4659-82A4-6A1C9C395389}</ProjectGuid>
+    <ProjectGuid>{B6E18D05-5FF5-42D4-823D-248B77A2F402}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CoffeeMakerApi</RootNamespace>

@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafeteiraEletrica", "CafeteiraEletrica\CafeteiraEletrica.csproj", "{298A673F-32F5-4737-8232-657B122A0C10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMakerApi", "aaa\CoffeeMakerApi.csproj", "{1D38A5F2-9135-4659-82A4-6A1C9C395389}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMakerApi", "CoffeeMakerApi\CoffeeMakerApi.csproj", "{B6E18D05-5FF5-42D4-823D-248B77A2F402}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{298A673F-32F5-4737-8232-657B122A0C10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{298A673F-32F5-4737-8232-657B122A0C10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{298A673F-32F5-4737-8232-657B122A0C10}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1D38A5F2-9135-4659-82A4-6A1C9C395389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1D38A5F2-9135-4659-82A4-6A1C9C395389}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1D38A5F2-9135-4659-82A4-6A1C9C395389}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1D38A5F2-9135-4659-82A4-6A1C9C395389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6E18D05-5FF5-42D4-823D-248B77A2F402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6E18D05-5FF5-42D4-823D-248B77A2F402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6E18D05-5FF5-42D4-823D-248B77A2F402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6E18D05-5FF5-42D4-823D-248B77A2F402}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

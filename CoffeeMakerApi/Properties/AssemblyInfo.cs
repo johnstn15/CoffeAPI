@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ICoffeeMakerApi")]
+[assembly: AssemblyTitle("CoffeeMakerApi")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ICoffeeMakerApi")]
+[assembly: AssemblyProduct("CoffeeMakerApi")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9c39407c-9187-47ec-a6d1-3a8137c23731")]
+[assembly: Guid("b6e18d05-5ff5-42d4-823d-248b77a2f402")]
 
 // Version information for an assembly consists of the following four values:
 //
