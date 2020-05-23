@@ -10,11 +10,20 @@ namespace CafeteiraEletrica
     class M4RecipienteDeContencao : RecipienteDeContencao, IPrepararCafe
     {
         private ICoffeeMakerApi _api;
+        
+        private WarmerPlateStatus lastPotStatus;
 
-        protected internal override bool EstaPronto => throw new NotImplementedException();
+        public M4RecipienteDeContencao(ICoffeeMakerApi _api)
+        {
+            this._api = _api;
+            lastPotStatus = WarmerPlateStatus.POT_EMPTY;
+        }
+
         public void Preparando()
         {
             throw new NotImplementedException();
         }
+
+        protected internal override bool EstaPronto => throw new NotImplementedException();
     }
 }

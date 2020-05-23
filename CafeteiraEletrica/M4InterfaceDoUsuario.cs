@@ -11,9 +11,28 @@ namespace CafeteiraEletrica
     {
         private ICoffeeMakerApi _api;
 
+        public M4InterfaceDoUsuario(ICoffeeMakerApi api)
+        {
+            this._api = api;
+        }
+
         public void Preparando()
         {
-            throw new NotImplementedException();
+            BrewButtonStatus status = _api.GetBrewButtonStatus();
+            if (status == BrewButtonStatus.PUSHED)
+            {
+                ComecarPreparar();
+            }
+        }
+
+        public override void CicloCompleto()
+        {
+            _api.SetIndicatorState(IndicatorState.ON);
+        }
+
+        public override void Pronto()
+        {
+            _api.SetIndicatorState(IndicatorState.OFF);
         }
     }
 }
